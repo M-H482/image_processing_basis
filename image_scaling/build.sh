@@ -1,0 +1,1 @@
+g++ image_scaler.cpp -o image_scaler `pkg-config --cflags --libs opencv4`

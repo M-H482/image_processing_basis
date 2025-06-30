@@ -1,0 +1,1 @@
+g++ image_rotator.cpp -o image_rotator `pkg-config --cflags --libs opencv4`

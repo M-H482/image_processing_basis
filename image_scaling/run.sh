@@ -1,0 +1,1 @@
+./image_scaler ../lenna.png 1.5 1.5 manual_scaled.png opencv_scaled.png
