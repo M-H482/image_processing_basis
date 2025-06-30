@@ -37,8 +37,6 @@ implemented in **C++** for foundational understanding.
 └── README.md
 
 3 directories, 20 files
-
-2 directories, 16 files
 ```
 
 ---
