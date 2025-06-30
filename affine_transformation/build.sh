@@ -1,0 +1,1 @@
+g++ affine_transformer.cpp -o affine_transformer `pkg-config --cflags --libs opencv4`
