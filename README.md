@@ -51,7 +51,7 @@ cd image-processing-basis
 ```
 
 ### 2️⃣ Image Rotation
-*Rotates input images by a specified angle (in degrees), Using the image center as the rotation center.*
+*Rotates input images by a specified angle (in degrees), using the image center as the rotation center.*
 ```bash
 cd image_rotation
 bash build.sh       # Build the rotation executable

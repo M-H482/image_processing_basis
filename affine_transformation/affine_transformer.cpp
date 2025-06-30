@@ -105,20 +105,6 @@ Vec3b bilinear_interpolate(const Mat& src_image, double src_x, double src_y) {
     return interpolated_pixel;
 }
 
-double max_distance(double a, double b, double c, double d) {
-    double max_val = std::max({a, b, c, d});
-    double min_val = std::min({a, b, c, d});
-    printf("%f %f\n", max_val, min_val);
-    return round(max_val - min_val);
-}
-
-double min_distance(double a, double b, double c, double d) {
-    double max_val = std::max({a, b, c, d});
-    double min_val = std::min({a, b, c, d});
-    printf("%f %f\n", max_val, min_val);
-    return round(max_val - min_val);
-}
-
 /**
  * @brief 手动实现图像的任意中心旋转（整理优化版）。
  *
