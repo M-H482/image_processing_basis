@@ -12,15 +12,26 @@ implemented in **C++** for foundational understanding.
 
 ```bash
 .
-├── image_rotation/ # Rotation implementation and test
-│ ├── build.sh
-│ └── run.sh
-│
-├── image_scaling/ # Scaling implementation and test
-│ ├── build.sh
-│ └── run.sh
-│
+├── image_rotation
+│   ├── build.sh
+│   ├── image_rotator
+│   ├── image_rotator.cpp
+│   ├── lenna_30_opencv_verify.png
+│   ├── lenna_30.png
+│   ├── lenna_rotated_opencv_verify.png
+│   ├── lenna_rotated.png
+│   └── run.sh
+├── image_scaling
+│   ├── build.sh
+│   ├── image_scaler
+│   ├── image_scaler.cpp
+│   ├── manual_scaled.png
+│   ├── opencv_scaled.png
+│   └── run.sh
+├── lenna.png
 └── README.md
+
+2 directories, 16 files
 ```
 
 ---
